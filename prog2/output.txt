@@ -1,0 +1,130 @@
+Script started on 2023-10-10 21:26:09-04:00 [TERM="xterm-256color" TTY="/dev/pts/167" COLUMNS="120" LINES="30"]
+adtrunzo@cisc372:~/prog2$ srun -n 8 ./poker[C[1P ./poker1 ./poker
+Enter the number of trials:
+1000
+We found 0 straight flushes out of 1000 hands or 0.000000 percent.
+Elapsed time: 0.003981 seconds
+adtrunzo@cisc372:~/prog2$ srun -n 1 ./poker[1P ./poker2 ./poker[1P ./poker1 ./poker[1P ./poker2 ./poker
+Enter the number of trials:
+1000
+We found 0 straight flushes out of 1000 hands or 0.000000 percent.
+Elapsed time: 0.000984 seconds
+adtrunzo@cisc372:~/prog2$ srun -n 2 ./poker[1P ./poker4 ./poker
+Enter the number of trials:
+1000
+We found 0 straight flushes out of 1000 hands or 0.000000 percent.
+Elapsed time: 0.000579 seconds
+adtrunzo@cisc372:~/prog2$ srun -n 4 ./poker[1P ./poker8 ./poker
+Enter the number of trials:
+1000
+We found 0 straight flushes out of 1000 hands or 0.000000 percent.
+Elapsed time: 0.000304 seconds
+adtrunzo@cisc372:~/prog2$ srun -n 8 ./poker[1P ./poker1 ./poker6 ./poker
+Enter the number of trials:
+1000
+We found 0 straight flushes out of 1000 hands or 0.000000 percent.
+Elapsed time: 0.000157 seconds
+adtrunzo@cisc372:~/prog2$ srun -n 16 ./poker[1P ./poker[1P ./poker1 ./poker
+Enter the number of trials:
+10000
+We found 0 straight flushes out of 10000 hands or 0.000000 percent.
+Elapsed time: 0.026983 seconds
+adtrunzo@cisc372:~/prog2$ srun -n 1 ./poker[C[1P ./poker2 ./poker
+Enter the number of trials:
+10000
+We found 0 straight flushes out of 10000 hands or 0.000000 percent.
+Elapsed time: 0.009562 seconds
+adtrunzo@cisc372:~/prog2$ srun -n 2 ./poker[1P ./poker5 ./poker[1P ./poker4 ./poker
+Enter the number of trials:
+10000
+We found 0 straight flushes out of 10000 hands or 0.000000 percent.
+Elapsed time: 0.004871 seconds
+adtrunzo@cisc372:~/prog2$ srun -n 4 ./poker[1P ./poker8 ./poker
+Enter the number of trials:
+10000
+We found 0 straight flushes out of 10000 hands or 0.000000 percent.
+Elapsed time: 0.002666 seconds
+adtrunzo@cisc372:~/prog2$ srun -n 8 ./poker[1P ./poker1 ./poker6 ./poker
+Enter the number of trials:
+10000
+We found 0 straight flushes out of 10000 hands or 0.000000 percent.
+Elapsed time: 0.001547 seconds
+adtrunzo@cisc372:~/prog2$ srun -n 16 ./poker[1P ./poker
+Enter the number of trials:
+100000
+We found 1 straight flushes out of 100000 hands or 0.001000 percent.
+Elapsed time: 0.203001 seconds
+adtrunzo@cisc372:~/prog2$ srun -n 1 ./poker[1P ./poker2 ./poker
+Enter the number of trials:
+100000
+We found 1 straight flushes out of 100000 hands or 0.001000 percent.
+Elapsed time: 0.095551 seconds
+adtrunzo@cisc372:~/prog2$ srun -n 2 ./poker[1P ./poker4 ./poker
+Enter the number of trials:
+100000
+We found 4 straight flushes out of 100000 hands or 0.004000 percent.
+Elapsed time: 0.048573 seconds
+adtrunzo@cisc372:~/prog2$ srun -n 4 ./poker[1P ./poker8 ./poker
+Enter the number of trials:
+100000
+We found 0 straight flushes out of 100000 hands or 0.000000 percent.
+Elapsed time: 0.026890 seconds
+adtrunzo@cisc372:~/prog2$ srun -n 8 ./poker[1P ./poker1 ./poker6 ./poker
+Enter the number of trials:
+100000
+We found 0 straight flushes out of 100000 hands or 0.000000 percent.
+Elapsed time: 0.015419 seconds
+adtrunzo@cisc372:~/prog2$ srun -n 16 ./poker[1P ./poker
+Enter the number of trials:
+1000000
+We found 17 straight flushes out of 1000000 hands or 0.001700 percent.
+Elapsed time: 1.581221 seconds
+adtrunzo@cisc372:~/prog2$ srun -n 1 ./poker[1P ./poker2 ./poker
+Enter the number of trials:
+1000000
+We found 20 straight flushes out of 1000000 hands or 0.002000 percent.
+Elapsed time: 0.956415 seconds
+adtrunzo@cisc372:~/prog2$ srun -n 2 ./poker[1P ./poker4 ./poker
+Enter the number of trials:
+1000000
+We found 17 straight flushes out of 1000000 hands or 0.001700 percent.
+Elapsed time: 0.484354 seconds
+adtrunzo@cisc372:~/prog2$ srun -n 4 ./poker[1P ./poker8 ./poker
+Enter the number of trials:
+1000000
+We found 10 straight flushes out of 1000000 hands or 0.001000 percent.
+Elapsed time: 0.267368 seconds
+adtrunzo@cisc372:~/prog2$ srun -n 8 ./poker[1P ./poker1 ./poker6 ./poker
+Enter the number of trials:
+1000000
+We found 6 straight flushes out of 1000000 hands or 0.000600 percent.
+Elapsed time: 0.154772 seconds
+adtrunzo@cisc372:~/prog2$ srun -n 16 ./poker[1P ./poker[1P ./poker1 ./poker
+Enter the number of trials:
+10000000^[[D            10000000
+We found 160 straight flushes out of 10000000 hands or 0.001600 percent.
+Elapsed time: 15.402138 seconds
+adtrunzo@cisc372:~/prog2$ srun -n 1 ./poker[C[1P ./poker2 ./poker[C[C[C[C[C[C[C[C
+Enter the number of trials:
+10000000
+We found 176 straight flushes out of 10000000 hands or 0.001760 percent.
+Elapsed time: 9.548663 seconds
+adtrunzo@cisc372:~/prog2$ srun -n 2 ./poker[1P ./poker4 ./poker
+Enter the number of trials:
+10000000
+We found 170 straight flushes out of 10000000 hands or 0.001700 percent.
+Elapsed time: 4.842803 seconds
+adtrunzo@cisc372:~/prog2$ srun -n 4 ./poker[C[C[1P ./poker8 ./poker
+Enter the number of trials:
+10000000^[[D^[[A                10000000
+We found 144 straight flushes out of 10000000 hands or 0.001440 percent.
+Elapsed time: 2.673519 seconds
+adtrunzo@cisc372:~/prog2$ srun -n 8 ./poker[C[1P ./poker1 ./poker6 ./poker
+Enter the number of trials:
+10000000
+We found 143 straight flushes out of 10000000 hands or 0.001430 percent.
+Elapsed time: 1.540548 seconds
+adtrunzo@cisc372:~/prog2$ exit
+exit
+
+Script done on 2023-10-10 21:31:08-04:00 [COMMAND_EXIT_CODE="0"]
